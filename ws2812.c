@@ -1,16 +1,3 @@
-/*
- * Por: Wilton Lacerda Silva
- * 
- * Este código é uma adaptação do código original do SDK Pico
- * para a utilização da matriz de LEDs WS2812 do BitDogLab.
- * 
- * A seleção de LEDs acesos é feita por meio de um buffer de LEDs, onde
- * cada posição do buffer representa um LED da matriz 5x5.
- * 
- * Original em:
- * https://github.com/raspberrypi/pico-examples/tree/master/pio/ws2812
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "pico/stdlib.h"
